@@ -21,7 +21,7 @@ sql = <<-SQL
   age INTEGER,
   hometown TEXT
   )
-  SQL
+SQL
   
   ActiveRecord::Base.connection.execute(sql)
   
